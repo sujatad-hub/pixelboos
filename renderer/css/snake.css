@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Pixelify';
+    src: url('../assets/fonts/PixelifySans-VariableFont_wght.ttf');
+}
+
+body{
+    font-family:'Pixelify',sans-serif;
+
+    margin:0;
+    height: 100vh;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+
+    border-style: solid;
+    border-color:#0F3A65;
+
+    border-right-width:7px;
+    border-left-width:7px;
+    border-bottom-width: 7px;
+    border-top-width:13px;
+    overflow:hidden;
+}
+
+#goback{
+    font-family: 'Pixelify',sans-serif;
+    font-size:38px;
+    color:#ffffff;
+    margin:0px;
+    border:0px;
+    padding: 0px;
+
+    background: none;
+
+    position:fixed;
+    top: 7px;
+    left:16px;
+    display:flex;
+    flex-direction:row;
+
+    cursor:pointer;
+
+    text-decoration:none;
+}
+
+#container{
+    position:relative;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+.intro{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:12px;
+
+    white-space:nowrap;
+
+    color:#ffffff;
+
+    font-size:65px;
+
+    margin:0px;
+    padding:0px;
+}
+
+#game-box{
+    position: absolute;
+    top:95px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    height: 627px;
+    width:830px;
+
+    background-color: #e8b9dc5f;
+
+    border-radius:5px;
+}
+
+#msg{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:460px;
+
+    font-family: 'Pixelify',sans-serif;
+    font-size:28px;
+    color:#ffffff;
+    
+
+}
+
+#board{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+
+
+    top:50px;
+    border-radius: 5px;
+}
+
+#score{
+    position: absolute;
+    left:10%;
+    transform: translateX(-10%);
+    top:50px;
+
+    font-family: 'Pixelify',sans-serif;
+    font-size:100px;
+    color:white;
+
+}
+
+#restartbtn{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:555px;
+
+    width:260px;
+    height:53px;
+
+    background-color:#d8ea6866;
+    border: 2px solid #d8ea6866;
+
+    font-family: 'Pixelify',sans-serif;
+    font-size:32px;
+    color:#ffffff;
+
+    border-radius:8px;
+}

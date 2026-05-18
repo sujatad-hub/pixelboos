@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman</title>
+    <link rel="stylesheet" href="../css/titlebar.css">
+    <link rel="stylesheet" href="../css/pacman.css">
+</head>
+<body>
+    <div class="container">
+            <!--custom titlebar-->
+            <div class="titlebar">
+                <button id="minimize" class="window-btn">-</button>
+                <button id="close" class="window-btn">x</button>
+            </div>
+
+            <br><button id="goback">←</button>
+
+            <div id="intro">pacman</div>
+
+            <div class="game-container">
+                <canvas id="board"></canvas>
+                <p id="wintext">you win the game!</p>
+                <br><center><button id="restart-btn" style="display: none;" onclick="restartgame()">restart game</button></center>
+            </div>
+
+        
+        
+    </div>
+    
+    <script src="../js/titlebar.js"></script>
+   <script src="../js/pacman.js"></script> 
+</body>
+</html>

@@ -1,0 +1,236 @@
+.choices{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    justify-content: space-around;
+    gap:100px;
+
+    position:absolute;
+    top:200px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.choice img{
+    width: 165px;
+    cursor: pointer;
+
+    padding:0px;
+    margin:0px;
+    
+}
+.choice.selected {
+    
+    background-color: rgba(163, 183, 187, 0.436);
+
+    border-radius:10px;
+}
+
+
+@font-face {
+    font-family: 'Pixelify';
+    src: url('../assets/fonts/PixelifySans-VariableFont_wght.ttf');
+}
+
+body{
+
+    font-family:'Pixelify',sans-serif;
+
+    margin:0;
+    height: 100vh;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+
+    border-style: solid;
+    border-color:#0F3A65;
+
+    border-right-width:7px;
+    border-left-width:7px;
+    border-bottom-width: 7px;
+    border-top-width:13px;
+    overflow:hidden;
+}
+
+#goback{
+    font-family: 'Pixelify',sans-serif;
+    font-size:38px;
+    color:#ffffff;
+    margin:0px;
+    border:0px;
+    padding: 0px;
+
+    background: none;
+
+    position:fixed;
+    top: 7px;
+    left:16px;
+    display:flex;
+    flex-direction:row;
+
+    cursor:pointer;
+
+    text-decoration:none;
+}
+
+.container{
+    position:relative;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+#intro{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:12px;
+
+    white-space:nowrap;
+
+    color:#ffffff;
+
+    font-size:65px;
+
+    margin:0px;
+    padding:0px;
+}
+
+.gamebox{
+    position: absolute;
+    top:95px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    height: 627px;
+    width:871px;
+
+    background-color: #FAF6B9E6;
+
+    border-radius:5px;
+}
+
+.flexuser, .flexcomputer{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+
+    align-items:center;
+
+    padding:0px;
+    margin:0px;
+
+    height:120px;
+}
+
+.flexcomputer{
+    position:absolute;
+    top:500px;
+}
+
+#username, #computername{
+    width:571px;
+    height:57px;
+
+    margin:0;
+    background-color: #CFDFF4;
+    border:1px solid #50689B;
+    border-radius:15px;
+
+    justify-content:center;
+
+    line-height: 50px;
+
+    font-size:32px;
+
+    color:#191D7D;
+}
+
+#username{
+    text-align:left;
+    padding-left:20px;
+}
+
+#computername{
+    text-align: right;
+    padding-right:20px;
+}
+
+#player-score, #computer-score{
+    font-size: 128px;
+    color:white;
+
+    padding: 0 20px;
+}
+
+.computer-choice{
+    font-size: 28px;
+    color:#414141;
+}
+
+#ccflex{
+     display: flex;
+    flex-direction: row;
+
+    padding-left:20px;
+    gap:20px;
+
+    align-items:center;
+}
+
+#button-container{    
+    position:absolute;
+    top:445px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+#select-btn{
+    border:none;
+    padding: 0px;
+    margin:0px;   
+
+    cursor:pointer;
+
+    font-size: 65px;
+    font-family: 'Pixelify',sans-serif;
+    color:#45444A;
+
+
+    background: transparent;
+}
+
+#result{
+    font-size:23px;
+    color:#191D7D;
+
+    position:absolute;
+    top:400px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#restart-btn{
+    
+    height:44px;
+    width:300px;
+
+    cursor:pointer;
+
+    margin:0px;
+
+    top:450px;
+
+    font-family: 'Pixelify',sans-serif;
+    color:#191D7D;
+    font-size:28px;
+
+    background-color: #CFDFF4;
+    border:1px solid #50689B;
+    border-radius:10px;
+}

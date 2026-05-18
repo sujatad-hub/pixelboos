@@ -1,0 +1,247 @@
+/*for signup and the game page*/
+
+
+
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+ 
+body{
+    margin:0;
+    height: 100vh;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+
+    border-style: solid;
+    border-color:#0F3A65;
+
+    border-right-width:7px;
+    border-left-width:7px;
+    border-bottom-width: 7px;
+    border-top-width:13px;
+}
+
+.container{
+    position:relative;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: 'Pixelify';
+    src: url('../assets/fonts/PixelifySans-VariableFont_wght.ttf');
+}
+
+#signupForm{
+    margin:0;
+    height:467px;
+    width:494px;
+
+    position: absolute;
+    top:142px;
+    left:195px;
+    background-color:#E1DEAF4D;
+
+    border-radius:5px;
+    border:2px solid#17447D4D;
+}
+
+a{
+    font-family: 'Pixelify',sans-serif;
+    font-size:38px;
+    color:#ffffff;
+    margin:0px;
+    border:0px;
+    padding: 0px;
+
+    position:fixed;
+    top: 7px;
+    left:16px;
+    display:flex;
+    flex-direction:row;
+
+    text-decoration:none;
+
+}
+
+#cacc{
+    position:absolute;
+    left:112px;
+    top: 314px;
+
+    height:44px;
+    width:270px;
+
+    margin:0px;
+
+    font-family: 'Pixelify',sans-serif;
+    color: #ffffff;
+    font-size:32px;
+
+    background-color: #DEDCB9;
+    border:1px solid #17447D;
+    border-radius:5px;
+}
+
+#username, #password{
+    width:248px;
+    height: 41px;
+
+    opacity: 100%;
+    
+    font-family: 'Pixelify',sans-serif;
+    color: #000000;
+    font-size:32px;
+
+    background-color: #F0F0F0;
+    margin: 0px;
+    border:none;
+}
+
+#username{
+    position:absolute;
+    left:225px;
+    top: 86px;
+}
+
+#password{
+    position: absolute;
+    top:198px;
+    left:225px;
+}
+
+#uname, #pname{
+    font-family: 'Pixelify',sans-serif;
+    font-size:32px;
+    color:#ffffff;
+    position: absolute;
+    left:15px;
+    margin:0;
+    border:none;
+
+    text-align:center;
+
+    opacity:100%;
+}
+
+#uname{
+    top:68px;
+}
+
+#pname{
+    top:180px;
+}
+
+
+.signupmsg{
+    font-family: 'Pixelify',sans-serif;
+    color: #ffffff;
+    font-size:26px;
+
+    margin:0;
+    border:0;
+
+    position:absolute;
+    top:375px;
+    left:50%;
+    transform: translateX(-50%);
+
+    white-space:nowrap;
+}
+
+
+#menu{
+
+    position: relative;
+    top:256px;
+    left:50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+
+    align-items:center;
+    border:0px;
+    margin:0px;
+}
+
+.character{
+    margin-top:200px;
+}
+
+
+#rockpaperscissor, #tictactoe, #pacman, #snake{
+
+    width:210px;
+
+    margin:0px;
+
+    font-family: 'Pixelify',sans-serif;
+    color: #ffffff;
+    font-size:32px;
+
+    background-color: #E1DEAFB3;
+    border:2px solid #17447DCC;
+    border-radius:5px;
+}
+
+.option{
+    font-family: 'Pixelify',sans-serif;
+    color: #ffffff;
+    font-size:75px;
+
+    position:absolute;
+    top:113px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    white-space: nowrap;
+}
+
+.character{
+    border:none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    margin:0;
+    width: 40px;
+    height:auto;
+
+    position:absolute;
+    left:7px;
+    top:625px;
+}
+
+.character img{
+    width:80px;
+    height:auto;
+    display:block;
+}
+
+.choosec{
+    font-family: 'Pixelify',sans-serif;
+    color: #ffffff;
+    font-size:70px;
+
+    width:460px;
+
+    text-align:center;
+
+    position:absolute;
+    top:100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input:focus{
+    outline:none;
+    box-shadow:none;
+}

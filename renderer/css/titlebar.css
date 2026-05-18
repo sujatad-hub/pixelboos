@@ -1,0 +1,41 @@
+.titlebar{
+    position: fixed;
+    top:0px;
+    right:0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background: transparent;
+    z-index: 1000;
+
+    -webkit-app-region: drag;
+}
+
+@font-face {
+    font-family: 'Pixelify';
+    src: url('../assets/fonts/PixelifySans-VariableFont_wght.ttf');
+}
+.window-btn{
+    -webkit-app-region: no-drag;
+    background: none;
+    border: none;
+    font-family: 'Pixelify', sans-serif;
+    color:white;
+    font-size: 48px;
+    cursor: pointer;
+
+    height:59px;
+    width:40px;
+
+}
+
+#close{
+    position:absolute;
+    top:3px;
+    right:14px;
+}
+#minimize{
+    position:absolute;
+    top:3px;
+    right:64px;
+}

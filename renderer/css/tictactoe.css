@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Pixelify';
+    src: url('../assets/fonts/PixelifySans-VariableFont_wght.ttf');
+}
+
+body{
+    font-family:'Pixelify',sans-serif;
+
+    margin:0;
+    height: 100vh;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+
+    border-style: solid;
+    border-color:#0F3A65;
+
+    border-right-width:7px;
+    border-left-width:7px;
+    border-bottom-width: 7px;
+    border-top-width:13px;
+    overflow:hidden;
+}
+
+#back{
+    font-family: 'Pixelify',sans-serif;
+    font-size:38px;
+    color:#ffffff;
+    margin:0px;
+    border:0px;
+    padding: 0px;
+
+    background: none;
+
+    position:fixed;
+    top: 7px;
+    left:16px;
+    display:flex;
+    flex-direction:row;
+
+    cursor:pointer;
+
+    text-decoration:none;
+}
+
+#intro{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:12px;
+
+    white-space:nowrap;
+
+    color:#ffffff;
+
+    font-size:65px;
+
+    margin:0px;
+    padding:0px;
+}
+
+
+
+#container{
+    position:relative;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+
+.gamebox{
+    position: absolute;
+    top:95px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    height: 627px;
+    width:871px;
+
+    background-color: #CAF1E8E6;
+
+    border-radius:5px;
+}
+
+#status{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:500px;
+
+    color:white;
+}
+
+#restartbutton{
+    width:241px;
+    height:53px;
+
+    background-color:#548D9FD9;
+    border: 2px solid #548D9F66;
+
+    font-family: 'Pixelify',sans-serif;
+    font-size:38px;
+    color:#ffffff;
+
+    border-radius:8px;
+}
+
+
+
+#board{
+    width:450px;
+    height: 450px;
+
+    background-color: #EDE5FFC7;
+
+    margin: 0 auto;
+    display : flex;
+    flex-wrap:wrap;
+
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:53px;
+
+    border-radius:8px;
+}
+
+.tile{
+    width:147px;
+    height:147px;
+
+    color:#044878;
+    font-size:150px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.horizontal-line{
+    border-bottom: 1px solid black;
+}
+
+.vertical-line{
+    border-right: 1px solid black;
+}
+
+.winner{
+    background-color: #F5FFBB;
+    color:#8B1025;
+    
+}
+

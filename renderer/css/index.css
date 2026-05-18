@@ -1,0 +1,196 @@
+/*for the index and the login page*/
+
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+
+body{
+    margin:0;
+    height: 100vh;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+
+    border-style: solid;
+    border-color:#0F3A65;
+
+    border-right-width:7px;
+    border-left-width:7px;
+    border-bottom-width: 7px;
+    border-top-width:13px;
+}
+
+.container{
+    position:relative;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: 'Pixelify';
+    src: url('../assets/fonts/PixelifySans-VariableFont_wght.ttf');
+}
+
+.title{
+    font-family: 'Pixelify',sans-serif;
+    color: white;
+    font-size:105px;
+
+    position: absolute;
+
+    right:213px;
+    top: 184px;
+}
+
+.loginbtn,.exitbtnn{
+    height:52px;
+    width:210px;
+
+    font-family: 'Pixelify',sans-serif;
+    color: #ffffffE6;
+    font-size:32px;
+
+    background-color: #E1DEAF;
+    opacity:80%;
+
+    border-radius:5px;
+    border: 2px solid #17447DF5;
+
+    cursor:pointer;
+}
+
+#loginbtn{
+    position:absolute;
+    top:359px;
+    left:342px;
+}
+
+#exitbtn{
+    position:absolute;
+    top:435px;
+    left:342px;
+}
+
+#loginForm{
+    margin:0;
+    height:467px;
+    width:494px;
+
+    position: absolute;
+    top:142px;
+    left:195px;
+    background-color:#E1DEAF4D;
+
+    border-radius:5px;
+    border:2px solid#17447D4D;
+}
+
+#username, #password{
+    width:248px;
+    height: 41px;
+
+    opacity: 100%;
+    
+    font-family: 'Pixelify',sans-serif;
+    color: #000000;
+    font-size:32px;
+
+    background-color: #F0F0F0;
+    margin: 0px;
+    border:none;
+}
+
+#username{
+    position:absolute;
+    left:225px;
+    top: 61px;
+}
+
+#password{
+    position: absolute;
+    top:150px;
+    left:225px;
+}
+
+#login-btn{
+    position:absolute;
+    left:173px;
+    top: 257px;
+
+    height:44px;
+    width:148px;
+
+    margin:0px;
+
+    font-family: 'Pixelify',sans-serif;
+    color: #ffffff;
+    font-size:32px;
+
+    background-color: #DEDCB9;
+    border:1px solid #17447D;
+    border-radius:5px;
+}
+
+#s{
+    position:absolute;
+    top:510px;
+    left:303px;
+    margin:0px;
+
+    font-family: 'Pixelify',sans-serif;
+    font-size:24px;
+    color:#040036;
+
+}
+
+#uname,#pname{
+    font-family: 'Pixelify',sans-serif;
+    font-size:32px;
+    color:#ffffff;
+    position: absolute;
+    left:15px;
+    margin:0;
+    border:none;
+
+    opacity:100%;
+}
+
+#uname{
+    top:61px;
+}
+
+#pname{
+    top:150px;
+}
+
+a{
+    color:#040036;
+}
+
+#message{
+    font-family: 'Pixelify',sans-serif;
+    color: #ffffff;
+    font-size:26px;
+
+    margin:0;
+    border:0;
+
+    position:absolute;
+    top:320px;
+    left:50%;
+    transform: translateX(-50%);
+
+    white-space:nowrap;
+}
+
+input:focus{
+    outline:none;
+    box-shadow:none;
+}
