@@ -1,0 +1,139 @@
+
+@font-face {
+    font-family: 'Pixelify';
+    src: url('../assets/fonts/PixelifySans-VariableFont_wght.ttf');
+}
+
+body{
+    font-family:'Pixelify',sans-serif;
+
+    margin:0;
+    height: 100vh;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+
+    border-style: solid;
+    border-color:#0F3A65;
+
+    border-right-width:7px;
+    border-left-width:7px;
+    border-bottom-width: 7px;
+    border-top-width:13px;
+    overflow:hidden;
+}
+
+#goback{
+    font-family: 'Pixelify',sans-serif;
+    font-size:38px;
+    color:#ffffff;
+    margin:0px;
+    border:0px;
+    padding: 0px;
+
+    background: none;
+
+    position:fixed;
+    top: 7px;
+    left:16px;
+    display:flex;
+    flex-direction:row;
+
+    cursor:pointer;
+
+    text-decoration:none;
+}
+
+#container{
+    position:relative;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+
+#intro{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:10px;
+
+    white-space:nowrap;
+
+    color:#ffffff;
+
+    font-size:55px;
+
+    margin:0px;
+    padding:0px;
+}
+
+#restart-btn{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top: 620px;
+
+    width:241px;
+    height:35px;
+
+    margin:0px;
+
+    font-family: 'Pixelify',sans-serif;
+    color: #ffffff;
+    font-size:26px;
+
+    background-color: #DEDCB9;
+    border:1px solid #17437d7e;
+    border-radius:10px;
+}
+
+#wintext{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top: 540px;
+
+    color:white;
+    font-size:30px;
+    font-family: 'Pixelify',sans-serif;
+
+    display:none;
+}
+
+
+.game-container{
+    position: absolute;
+    top:75px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    height: 665px;
+    width:871px;
+
+    background-color: #c1b5cd95;
+
+    border-radius:5px;
+}
+
+
+
+
+
+
+body{
+    text-align:center;
+}
+
+#board{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top: 8px;
+
+
+    background-color: black;
+}

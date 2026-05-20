@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+
+    <link rel="stylesheet" href="../css/titlebar.css">
+    <link rel="stylesheet" href="../css/snake.css">
+</head>
+<body>
+    <button id="goback">←</button>
+    <div class="container">
+        <!--custom titlebar-->
+            <div class="titlebar">
+                <button id="minimize" class="window-btn">-</button>
+                <button id="close" class="window-btn">x</button>
+            </div>
+
+
+        <div class="intro"><center>snake game</center></div>
+
+            
+        <div id="game-box">
+                <br><div id="score">0</div> <br>
+            <div id="msg">
+                <p id="message"> press space to start!</p>
+                <p id="gmessage"></p>
+            </div>
+            
+            <br>
+
+            <canvas id="board"></canvas>
+            <br> <button id="restartbtn" style="display: none;">restart game</button><br>
+        </div>
+        
+    </div>
+
+    
+    <Script src="../js/titlebar.js"></Script>
+    <script src="../js/snake.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/rockpaperscissor.css">
+    <link rel="stylesheet" href="../css/titlebar.css">
+</head>
+<body>
+
+    <div class="container">
+
+    
+
+        <!--custom titlebar-->
+            <div class="titlebar">
+                <button id="minimize" class="window-btn">-</button>
+                <button id="close" class="window-btn">x</button>
+            </div>
+
+            <br><button id="goback">←</button>
+
+        <p id="intro">rock paper scissor</p>
+
+            <div class="gamebox">
+
+                <div class="flexuser">
+                    
+                    <img id="playercharacter" width="120">
+                    <div id="username"></div>
+                    <div id="player-score">0</div>
+
+                </div>
+
+                    
+            <div class="game-container">
+
+                <div id="ccflex">
+                    <div class="computer-choice">computer's choice: </div><img id="computer-choice" width="50">
+                </div>
+
+                
+
+                <div class="choices">
+                    <div class="choice" id="rock">
+                        <img src="../assets/rock.png">
+                    </div>
+                    <div class="choice" id="paper">
+                        <img src="../assets/paper.png">
+                    </div>
+                    <div class="choice" id="scissor">
+                        <img src="../assets/scissor.png">
+                    </div>
+                </div> 
+
+                <center><br>
+                    <div id="button-container">
+                        <button id="select-btn">select</button>
+                        <button id="restart-btn" style="display: none;" onclick="restartgame()">restart game</button>
+                    </div>
+                </center><br>
+                
+
+                <div id="result"></div><br>
+        
+                <div class="flexcomputer">
+                    <div id="computer-score">0</div>
+                    <div id="computername">computer</div>
+
+                    <img src="../assets/robot.png" width="120p">
+                </div>
+                
+                </div>
+                </div>
+
+        
+        </div>
+
+    </div>
+
+    <script src="../js/rockpaperscissor.js"></script>
+    <Script src="../js/titlebar.js"></Script>
+</body>
+</html>
