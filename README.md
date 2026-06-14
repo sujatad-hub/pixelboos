@@ -29,6 +29,6 @@ A web app that lets users create accounts and customize their characters and pla
 5. Select a game and start playing.
 
 ## Screenshots
-<img width="1117" height="922" alt="image" src="https://github.com/user-attachments/assets/93db587a-654e-42f5-9afd-302d867fab21" />
+<img width="1117" height="100" alt="image" src="https://github.com/user-attachments/assets/93db587a-654e-42f5-9afd-302d867fab21" />
 <img width="1111" height="927" alt="image" src="https://github.com/user-attachments/assets/5f866509-257d-4d6e-b17e-5838b9511af1" />
 
